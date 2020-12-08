@@ -14,7 +14,6 @@
     // class$ selects all elements in which class attribute ends with "col-"
     [class^="col-"] {
         float: left;
-
         
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
